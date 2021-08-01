@@ -25,7 +25,7 @@ if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
 OMNI_ROOT="$MY_DIR"/../../..
 
-HELPER="$OMNI_ROOT"/vendor/omni/build/tools/extract_utils.sh
+HELPER="$OMNI_ROOT"/vendor/dot/build/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
