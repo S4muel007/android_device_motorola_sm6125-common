@@ -17,10 +17,6 @@
 
 SM6125_PATH := device/motorola/sm6125-common
 
-# FM
-BOARD_HAVE_QCOM_FM := true
-BOARD_HAS_QCA_FM_SOC := "cherokee"
-
 # Init
 TARGET_INIT_VENDOR_LIB := //$(SM6125_PATH):libinit_moto_trinket
 
