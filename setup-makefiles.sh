@@ -17,7 +17,7 @@
 set -e
 
 VENDOR=motorola
-DEVICE=sm6125_common
+DEVICE=sm6125-common
 
 INITIAL_COPYRIGHT_YEAR=2021
 

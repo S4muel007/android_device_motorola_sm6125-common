@@ -17,7 +17,7 @@
 set -e
 
 VENDOR=motorola
-DEVICE=sm6125_common
+DEVICE=sm6125-common
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
