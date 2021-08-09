@@ -40,7 +40,7 @@ PRODUCT_PACKAGES += \
 
 # MotoActions
 PRODUCT_PACKAGES += \
-    LineageActions
+    MotoActions
 
 # Moto Framework Overlay
 PRODUCT_PACKAGES += \
