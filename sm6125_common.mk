@@ -42,6 +42,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MotoActions
 
+# Moto Camera 2
+PRODUCT_PACKAGES += \
+    MotCamera2
+
 # Moto Framework Overlay
 PRODUCT_PACKAGES += \
     MotoRav \
