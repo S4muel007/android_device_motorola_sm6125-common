@@ -24,6 +24,9 @@ PRODUCT_EXTRA_VNDK_VERSIONS := 29
 # BootAnimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+
 # Prebuilt
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/motorola/sm6125-common/prebuilt/product,product) \
