@@ -77,49 +77,49 @@ void vendor_load_properties() {
     std::string device = GetProperty("ro.boot.device", "");
     std::string carrier = GetProperty("ro.boot.carrier", "");
     if (device == "sofia") {
-        property_override("ro.build.description", "redfin-user 11 RQ3A.210905.001 7511028 release-keys");
+        property_override("ro.build.description", "sofia_retail-user 10 QPMS30.80-94-2 604e5 release-keys");
         for (const auto &source : ro_props_default_source_order) {
-            set_ro_build_prop(source, "fingerprint", "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys");
+            set_ro_build_prop(source, "fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
             set_ro_product_prop(source, "device", "sofia");
             set_ro_product_prop(source, "model", "moto g power");
             set_ro_product_prop(source, "name", "sofia_retail");
         }
     } else if (device == "sofiap") {
-        property_override("ro.build.description", "redfin-user 11 RQ3A.210905.001 7511028 release-keys");
+        property_override("ro.build.description", "sofiap_retail-user 10 QPRS30.80-58-5 5f0ed release-keys");
         for (const auto &source : ro_props_default_source_order) {
-            set_ro_build_prop(source, "fingerprint", "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys");
+            set_ro_build_prop(source, "fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
             set_ro_product_prop(source, "device", "sofiap");
             set_ro_product_prop(source, "model", "moto g stylus");
             set_ro_product_prop(source, "name", "sofiap_retail");
         }
     } else if (device == "sofiar") {
-        property_override("ro.build.description", "redfin-user 11 RQ3A.210905.001 7511028 release-keys");
+        property_override("ro.build.description", "sofiar_retail-user 10 QPES30.79-124-2 42d236 release-keys");
         for (const auto &source : ro_props_default_source_order) {
-            set_ro_build_prop(source, "fingerprint", "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys");
+            set_ro_build_prop(source, "fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
             set_ro_product_prop(source, "device", "sofiar");
             set_ro_product_prop(source, "model", "moto g(8) power");
             set_ro_product_prop(source, "name", "sofiar_retail");
         }
     } else if (device == "sofiap_ao" || device == "sofiap_sprout") {
-        property_override("ro.build.description", "redfin-user 11 RQ3A.210905.001 7511028 release-keys");
+        property_override("ro.build.description", "sofiap_ao-user 10 QPRS30.80-109-2-5 298f91 release-keys");
         for (const auto &source : ro_props_default_source_order) {
-            set_ro_build_prop(source, "fingerprint", "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys");
+            set_ro_build_prop(source, "fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
             set_ro_product_prop(source, "device", "sofiap_sprout");
             set_ro_product_prop(source, "model", "moto g pro");
             set_ro_product_prop(source, "name", "sofiap_retail");
         }
     } else if (device == "rav" && carrier == "retus") {
-        property_override("ro.build.description", "redfin-user 11 RQ3A.210905.001 7511028 release-keys");
+        property_override("ro.build.description", "rav_t-user 10 QPJ30.131-61 95ac67 release-keys");
         for (const auto &source : ro_props_default_source_order) {
-            set_ro_build_prop(source, "fingerprint", "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys");
+            set_ro_build_prop(source, "fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
             set_ro_product_prop(source, "device", "rav");
             set_ro_product_prop(source, "model", "moto g fast");
             set_ro_product_prop(source, "name", "rav_t");
         }
     } else if (device == "rav") {
-        property_override("ro.build.description", "redfin-user 11 RQ3A.210905.001 7511028 release-keys");
+        property_override("ro.build.description", "rav_retail-user 10 QPJS30.63-35-1-9 2a90b release-keys");
         for (const auto &source : ro_props_default_source_order) {
-            set_ro_build_prop(source, "fingerprint", "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys");
+            set_ro_build_prop(source, "fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
             set_ro_product_prop(source, "device", "rav");
             set_ro_product_prop(source, "model", "moto g(8)");
             set_ro_product_prop(source, "name", "rav_retail");
